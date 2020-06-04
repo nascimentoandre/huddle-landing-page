@@ -1,0 +1,114 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("../images/bg-desktop.svg");
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: 0 50px;
+}
+
+header {
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #66b3ff;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 4rem auto;
+  max-width: 90%;
+}
+
+.main-text {
+  max-width: 460px;
+}
+
+.main-text h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-top: 5rem;
+}
+
+.social-media {
+  left: 75rem;
+  max-width: 170px;
+  text-align: right;
+  margin-right: 25px;
+  margin-bottom: 40px;
+}
+
+.social-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  color: white;
+  padding: 6px 8px;
+  border-radius: 20px;
+  font-size: 18px;
+  margin: 0 0.4rem;
+}
+
+.social-cont {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#facebook {
+  padding: 6px 11px;
+}
+
+#register-button {
+  background-color: #fff;
+  border: 1px solid hsl(257, 40%, 49%);
+  border-radius: 20px;
+  color: hsl(257, 40%, 49%);
+  display: inline-block;
+  font-size: 18px;
+  padding: 8px 40px;
+  text-align: center;
+}
+
+#register-button:hover, .social-button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("../images/bg-mobile.svg");
+    font-weight: 200;
+  }
+
+  .main-text {
+    text-align: center;
+  }
+
+  .main-text h1 {
+    font-size: 20px;
+  }
+
+  .main-text p {
+    font-size: 14px;
+  }
+
+  .container {
+    justify-content: center;
+  }
+
+  .main-illus {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .social-cont {
+    justify-content: center;
+  }
+}
